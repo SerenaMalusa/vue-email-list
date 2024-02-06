@@ -31,7 +31,7 @@
         <div class="app" id="app">
 
             <ul class="email_list">
-                <li class="email_list-el">
+                <li v-for="email in emails" class="email_list-el">
                     {{email}}
                 </li>
             </ul>
