@@ -14,7 +14,7 @@ const app = createApp({
                         const result = reply.data.response;
                         // console.log(result);
                         this.emails.push(result);
-                        // console.log(this.emails[i],result);
+                        console.log(this.emails[i],result);
                     });
                                    
         },
