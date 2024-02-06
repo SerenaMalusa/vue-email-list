@@ -28,9 +28,11 @@
     </head>
     <body>
         
-        <div class="app" id="app">
+        <div class="container-fluid mt-4" id="app">
 
-            <ul class="email_list">
+            <ul 
+            v-if="emails.length >= 10"
+            class="email_list">
                 <li v-for="email in emails" class="email_list-el">
                     {{email}}
                 </li>
